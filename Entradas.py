@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov  8 19:11:39 2020
+Created on Sun Nov  8 19:31:30 2020
 
-@author: USER
+@author: anapl
 """
 
 from tkinter import *
@@ -19,10 +19,3 @@ if __name__ == "__main__":
     ventana.geometry("300x300")
 
     ventana.mainloop()
-    
-    calculo = stringvar()
-    
-    datos = entry(ventana, textvariable=calculo)
-    
-    datos.grid(columnspan=10, ipadx=50)
-    
