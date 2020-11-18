@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
                    command=lambda: digito("-"), height=2, width=5)
 
-    resta.grid(row=2, column=6)
+    resta.grid(row=2, column=5)
     
     
     multiplica = Button(ventana, text=' * ', fg='black', bg='white',
@@ -157,21 +157,21 @@ if __name__ == "__main__":
 
                     command=lambda: digito("/"), height=2, width=5)
 
-    divide.grid(row=3, column=6)
+    divide.grid(row=3, column=5)
     
     
     resultado = Button(ventana, text=' = ', fg='black', bg='white',
 
                    command=igual, height=2, width=5)
 
-    resultado.grid(row=5, column=3, columnspan=4, ipadx=29)
+    resultado.grid(row=5, column=5)
     
     
     limpiar = Button(ventana, text='Limpiar', fg='black', bg='white',
 
                    command=limpiar, height=2, width=5)
 
-    limpiar.grid(row=4, column=6)
+    limpiar.grid(row=4, column=5)
     
     
     punto = Button(ventana, text='.', fg='black', bg='white',
